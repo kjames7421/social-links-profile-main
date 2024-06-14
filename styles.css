@@ -64,6 +64,7 @@ img {
     color: #FFFFFF;
     font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 .container {
@@ -82,4 +83,10 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+button:hover {
+    background-color: #C4F82A;
+    color: black;
+    cursor: pointer;
 }
