@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,9 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title>Social links profile</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -22,21 +20,27 @@
   <div class="container">
     <div>
       <div class="content">
-        <img src="assets/images/avatar-jessica.jpeg">
-        <p id="title">
-          Jessica Randall
-        </p>
-        <p id="location">
-          London, United Kingdom
-        </p>
-        <p id="bio">"Front-end developer and avid reader."</p>
-        <div>
-          <button>GitHub</button>
-          <button>Frontend Mentor</button>
-          <button>LinkedIn</button>
-          <button>Twitter</button>
-          <button>Instagram</button>
-        </div>
+        <img src="assets/images/avatar-jessica.jpeg" alt="user profile photo" role="profile photo">
+        <section>
+          <h1 id="title">
+            Jessica Randall
+          </h1>
+          <h2 id="location">
+            London, United Kingdom
+          </h2>
+        </section>
+        <main>
+          <p id="bio">"Front-end developer and avid reader."</p>
+        </main>
+        <nav>
+          <ul>
+            <li role="navigation" href="Github">GitHub</li role="navigation" href="">
+            <li role="navigation" href="Frontend Mentor">Frontend Mentor</li role="navigation" href="">
+            <li role="navigation" href="LinkedIn">LinkedIn</li role="navigation" href="">
+            <li role="navigation" href="Twitter">Twitter</li role="navigation" href="">
+            <li role="navigation" href="Instagram">Instagram</li role="navigation" href="">
+          </ul>
+        </nav>
       </div>
     </div>
   </div>

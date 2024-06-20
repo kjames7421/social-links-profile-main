@@ -1,36 +1,32 @@
 
-
-/* .inter-uniquifier {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-} */
-
-
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #141414;
     height: 100vh;
-    /* width: 100%; */
 }
 
-p {
+p, h1, h2 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 14px;
 }
 
-button {
-    display: block;
+ul {
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 304px;
     height: 45px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 14px;
+    font-weight: bold;
     background-color: #333333;
     margin-bottom: 16px;
     padding: 0px;
@@ -85,7 +81,7 @@ img {
   align-items: center;
 }
 
-button:hover {
+li:hover {
     background-color: #C4F82A;
     color: black;
     cursor: pointer;
